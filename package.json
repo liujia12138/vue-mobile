@@ -2,7 +2,7 @@
   "name": "vue-mobile",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "刘佳 <liujia@elements.org.cn>",
+  "author": "ll <liujia12138@163.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "vant": "^2.6.3",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
